@@ -1,0 +1,6 @@
+@ProyectoP6_Enroll_HostAddress = http://localhost:5029
+
+GET {{ProyectoP6_Enroll_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
