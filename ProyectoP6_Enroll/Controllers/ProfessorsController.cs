@@ -5,12 +5,14 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using ProyectoP6_Enroll.Attributes;
 using ProyectoP6_Enroll.Models;
 
 namespace ProyectoP6_Enroll.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [ApiKey]
     public class ProfessorsController : ControllerBase
     {
         private readonly Proyectop62024Context _context;
