@@ -12,7 +12,7 @@ namespace ProyectoP6_Enroll.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [ApiKey]
+    
     public class ProfessorsController : ControllerBase
     {
         private readonly Proyectop62024Context _context;
